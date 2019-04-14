@@ -1,0 +1,46 @@
+Task-
+ I have given a task to categorize the poems into 4 genres.
+ I have proceed towards my goal in a stepwise manner.
+
+Step 1 - Data collection and Aggregration
+ * Firstly, I have collected the poems dataset from two different websites ie kaggle.com and data.mendeley.com
+ * Then, I have selected important columns and then i have merged them into a single dataset Poems.csv
+ * Final Dataset have 748 entries.
+
+Step 2 - Data Cleaning and Preprocessing
+ * Firstly, I have imported all the relevent libraries
+ * Then, I have imported the data
+ * Then, I have shuffled the data in order to reduce biasness
+ * Then, I have done data preprocessing which includes-
+   * Removing special characters, puntuations, escape-sequence characters etc.
+   * Converting the alphabets into lowercase
+   * Tokenization
+   * Remove Stopwords
+   * Stemming
+ * Then, I have split the data into training and testing set
+ * Then, I have done Vectorization with CountVectorizer
+
+Step 3 - Modeling
+ I have used 2 machine learning models ie. Naive Bayes classifier and Random Forest Classifier 
+ Accuracies - 
+  * Naive Bayes - 72%
+  * Random Forest - 64%
+
+
+
+Tools and Libraries Used - 
+ * Tools-
+   * Python 3.7.2
+   * Jupyter Notebook 5.7.4
+   * Anaconda Navigator 1.9.6
+
+ * Libraries-
+   * Numpy
+   * Pandas
+   * re
+   * nltk.stem.porter
+   * nltk.corpus
+   * sklearn.model_selection
+   * sklearn.feature_extraction.text
+   * sklearn.naive_bayes
+   * sklearn.metrics
