@@ -1,9 +1,9 @@
 # Poem-Genre-Categorization
 
 ## Task Description- 
-### My task is to categorize poems into 4 genres. I have gathered my data from kaggle.com and data.mendeley.com. 
+### My task is to categorize poems into 4 genres. I have gathered the data from kaggle.com and data.mendeley.com and merge them together after preprocessing. 
 ### Final dataset have 748 entries
-### I have done this with the help of various Natural Language Processing(NLP) techniques.
+### I have completed my task with the help of various Natural Language Processing(NLP) techniques.
 
 ## Tools used -
 * Python – 3.7.2
